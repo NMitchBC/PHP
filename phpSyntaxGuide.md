@@ -253,7 +253,7 @@ str_replace(find,replace,string,count)
 The PHP str_word_count() function counts the number of words in a string.
 
 ```
-echo str_word_count("Hello world!");
+echo str_word_count("Hello Confusing World!");
 ```
 
 ##### strpos()
@@ -621,7 +621,7 @@ Arguments are specified after the function name, inside the parentheses. You can
 
 ```
 <?php
-$cars = array("Volvo", "BMW", "Toyota");
+$cars = array("Tesla", "Sprinter", "Toyota");
 echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 ?>
 ```
@@ -631,8 +631,8 @@ echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 ```
 - Arrays with named keys
   <?php
-  $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-  echo "Peter is " . $age['Peter'] . " years old.";
+  $age = array("Neil"=>"42", "Ramses"=>"3700", "Dog"=>"7");
+  echo "Neil is " . $age['Neil'] . " years old.";
   ?>
 ```
 
@@ -663,10 +663,10 @@ You can have different data types in the same array.
 
 In PHP, we have the following loop types:
 
-while - loops through a block of code as long as the specified condition is true
+**While** - loops through a block of code as long as the specified condition is true
 do...while - loops through a block of code once, and then repeats the loop as long as the specified condition is true
-for - loops through a block of code a specified number of times
-foreach - loops through a block of code for each element in an array
+**For** - loops through a block of code a specified number of times
+**Foreach** - loops through a block of code for each element in an array
 
 #### While Loop
 
